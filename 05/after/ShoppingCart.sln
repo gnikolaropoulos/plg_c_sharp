@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B742C4A-CEEC-4379-9F16-4E471BC7A9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Application", "src\ShoppingCart.Application\ShoppingCart.Application.csproj", "{B8D637F4-1A55-487F-AEC9-89527EC96F24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DCD3C4DA-2898-48DD-8F94-F04D7788A720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.tests", "test\ShoppingCart.tests\ShoppingCart.tests.csproj", "{DC4EB104-E8D4-4CAE-BE44-85DB975649F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D637F4-1A55-487F-AEC9-89527EC96F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D637F4-1A55-487F-AEC9-89527EC96F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D637F4-1A55-487F-AEC9-89527EC96F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D637F4-1A55-487F-AEC9-89527EC96F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4EB104-E8D4-4CAE-BE44-85DB975649F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4EB104-E8D4-4CAE-BE44-85DB975649F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4EB104-E8D4-4CAE-BE44-85DB975649F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4EB104-E8D4-4CAE-BE44-85DB975649F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8D637F4-1A55-487F-AEC9-89527EC96F24} = {5B742C4A-CEEC-4379-9F16-4E471BC7A9BF}
+		{DC4EB104-E8D4-4CAE-BE44-85DB975649F2} = {DCD3C4DA-2898-48DD-8F94-F04D7788A720}
+	EndGlobalSection
+EndGlobal
